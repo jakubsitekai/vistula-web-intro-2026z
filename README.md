@@ -8,6 +8,8 @@ Strona WWW (po włączeniu GitHub Pages): https://jakubsitekai.github.io/vistula
 - [Strona kursu](index.html)
 - [Sylabus](syllabus.md)
 - [Zadania i zasady ocen](assignments.md)
+- [Rozbudowane wykłady W1–W4 w przeglądarce](lectures/index.html)
+- [Sonda preferowanej ścieżki nauki](https://github.com/jakubsitekai/vistula-web-intro-2026z/issues/1)
 - [Przykładowe dane CV](examples/cv.json)
 
 ## Oddawanie prac przez Pull Request
@@ -22,7 +24,7 @@ W repozytorium wybierz **Settings → Pages → Build and deployment → Deploy 
 
 ## Wymagania
 - **3,0:** CV w HTML, CSS, JS i DOM/fetch/JSON; bez obrony. Po potwierdzeniu przyjęcia kompletu zaliczone są wykład i laboratorium; dalsza obecność nie jest wymagana, chyba że prowadzący wyjątkowo wezwie na konkretne zajęcia.
-- **4,0:** CV oraz kurs Coursera/równoważny **albo** rozszerzenie CV **albo** dodatkowe materiały prowadzącego i szerszy egzamin; pełna indywidualna obrona.
+- **4,0:** CV oraz kurs Coursera/równoważny **albo** rozszerzenie CV **albo** rozbudowane materiały W1–W4 i szerszy egzamin; pełna indywidualna obrona.
 - **5,0:** spełnienie wymagań na 4,0 oraz Biblioteka (REST, CRUD, Supabase) i pełna obrona.
 
 Supabase Auth i RLS nie są wymagane w demonstracyjnej aplikacji na 5,0. W publicznym frontendzie nie wolno umieszczać kluczy `service_role` ani `secret`.
