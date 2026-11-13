@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Wprowadzenie do technologii internetowych — Vistula, semestr zimowy 2026/2027. Program, laboratoria, zaliczenie i zgłoszenia projektów.">
+  <title>Wprowadzenie do technologii internetowych | Vistula 2026/27</title>
+  <style>
+    :root { color-scheme: light; --ink:#172334; --muted:#526276; --blue:#2159b8; --border:#dce4ee; --light:#f4f7fb; --white:#fff; --green:#137b65; }
+    * {box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--ink);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+    a{color:var(--blue)}a:hover{text-decoration-thickness:2px}a:focus-visible,button:focus-visible{outline:3px solid #e8a53b;outline-offset:2px}
+    .wrap{width:min(1080px,calc(100% - 36px));margin:auto}
+    header{background:linear-gradient(115deg,#101d35 0%,#143e70 95%);color:white;padding:62px 0 46px}
+    .eyebrow{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#afd1ff;font-weight:750}
+    h1{font-size:clamp(2rem,4.5vw,3.5rem);line-height:1.13;max-width:820px;letter-spacing:-.04em;margin:14px 0 18px}
+    .lead{font-size:1.12rem;max-width:760px;color:#dce8f6}
+    .meta{display:flex;flex-wrap:wrap;gap:10px;margin:25px 0}
+    .meta span,.pill{padding:5px 12px;border:1px solid #7596c4;border-radius:100px;font-size:.85rem;color:#e8f2ff}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:23px}
+    .btn{display:inline-block;text-decoration:none;border-radius:9px;padding:11px 18px;background:#fff;color:#132845;font-weight:700}
+    .btn.secondary{color:#fff;background:transparent;border:1px solid #9fb7d3}
+    nav{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--border);z-index:5;box-shadow:0 3px 14px #15254409}
+    nav .wrap{display:flex;gap:24px;overflow:auto;white-space:nowrap;padding:12px 0}
+    nav a{text-decoration:none;color:#344a62;font-weight:650;font-size:14px}
+    section{padding:40px 0;border-bottom:1px solid #e7ecf3;scroll-margin-top:75px}
+    h2{font-size:1.75rem;line-height:1.28;letter-spacing:-.025em;margin:0 0 16px}
+    h3{font-size:1.15rem;margin:12px 0 6px}
+    p{margin:8px 0 14px}
+    .muted{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .card{border:1px solid var(--border);border-radius:13px;background:var(--white);padding:20px}
+    .card h3{margin-top:0}
+    .tag{display:inline-block;background:#eaf2ff;border-radius:6px;color:#134c92;font-size:.74rem;font-weight:750;letter-spacing:.02em;padding:4px 8px;margin-bottom:8px}
+    .tag.good{background:#e0f6ee;color:#0e6753}.tag.gold{background:#fff2d6;color:#835800}
+    table{width:100%;border-collapse:collapse;line-height:1.45}
+    th,td{border-bottom:1px solid #dce4ee;padding:13px 10px;text-align:left;vertical-align:top}
+    th{background:#f4f7fb}
+    .scroll{overflow:auto;border:1px solid var(--border);border-radius:12px}
+    .scroll table{min-width:640px}
+    code{font:0.93em ui-monospace,SFMono-Regular,Consolas,monospace;padding:2px 4px;border-radius:4px;background:#edf2f7}
+    ul,ol{padding-left:23px}li{margin:7px 0}
+    .note{padding:17px 20px;border-left:4px solid #3269bb;background:#f2f7ff;border-radius:0 9px 9px 0}
+    .warn{padding:17px 20px;border-left:4px solid #b58034;background:#fff8ed;border-radius:0 9px 9px 0}
+    .subtle{background:#f7f9fc}
+    .course{border:1px solid var(--border);border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:6px}
+    .course h3{margin:0}
+    .course a{font-weight:700}
+    footer{background:#101d35;color:#dce8f6;padding:38px 0}
+    footer a{color:#b9d8ff}
+    @media(max-width:720px){.grid{grid-template-columns:1fr}header{padding:40px 0 30px}section{padding:32px 0}h2{font-size:1.5rem}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">Vistula · semestr zimowy 2026/2027</div>
+      <h1>Wprowadzenie do technologii internetowych</h1>
+      <p class="lead">Jedno CV, cztery kroki rozwoju, elastyczna nauka i jasne zasady zaliczenia. Można pracować we własnym tempie i wykorzystywać narzędzia AI — wyższe oceny wymagają również wykazania zrozumienia.</p>
+      <div class="meta"><span>10 h wykładów</span><span>14 h laboratoriów</span><span>01.10.2026–12.02.2027</span><span>Prowadzący: Jakub Sitek</span></div>
+      <div class="actions">
+        <a class="btn" href="#zadania">Zobacz zadania</a>
+        <a class="btn secondary" href="#oceny">Zasady zaliczenia</a>
+        <a class="btn secondary" href="#oddawanie">Jak oddać rozwiązanie</a>
+      </div>
+    </div>
+  </header>
+  <nav aria-label="Nawigacja kursu"><div class="wrap">
+    <a href="#start">Informacje</a><a href="#plan">Harmonogram</a><a href="#zadania">CV: zadania 1–4</a><a href="#oceny">Oceny</a><a href="#projekt5">Projekt na 5</a><a href="#kursy">Materiały</a><a href="#oddawanie">Oddawanie</a><a href="#faq">FAQ</a>
+  </div></nav>
+  <main>
+    <section id="start"><div class="wrap">
+      <h2>Cel i organizacja</h2>
+      <p>Poznasz podstawy działania aplikacji internetowych: strukturę stron, ich stylowanie, interaktywność, pobieranie danych, API i podstawy komunikacji z backendem. Projekt podstawowy można ukończyć wcześniej, nie trzeba czekać na kolejne laboratoria.</p>
+      <div class="grid">
+        <div class="card"><span class="tag">Cel praktyczny</span><h3>Od HTML do aplikacji</h3><p>Na początku statyczna strona CV, na końcu strona pobierająca JSON i budująca treść z użyciem DOM.</p></div>
+        <div class="card"><span class="tag good">Samodzielna nauka</span><h3>Różne poziomy zaangażowania</h3><p>Wybierz podstawowe zadania, kurs lub rozbudowany projekt. Coursera jest rekomendowana, ale nieobowiązkowa.</p></div>
+      </div>
+      <p class="note"><strong>Zasada uczciwego oceniania:</strong> na 3,0 sprawdzana jest kompletność i działanie oddanego rozwiązania. Przy ocenie 4,0 i 5,0 jest pełna indywidualna obrona: pytania z teorii, wyjaśnianie działania kodu i zmiany wskazane przez prowadzącego, bez sztywnego limitu liczby zmian. Samo korzystanie z AI nie obniża oceny.</p>
+    </div></section>
+
+    <section id="plan" class="subtle"><div class="wrap">
+      <h2>Harmonogram</h2>
+      <h3>Wykłady — 4 × 2,5 h dydaktycznej = 10 h</h3>
+      <div class="scroll"><table><thead><tr><th>Spotkanie</th><th>Zakres teorii</th></tr></thead><tbody>
+      <tr><td>W1</td><td>Internet i WWW; DNS, URL, klient–serwer, HTTP/HTTPS, żądanie/odpowiedź, HTML5, Git, hosting i GitHub Pages.</td></tr>
+      <tr><td>W2</td><td>CSS3: selektory, kaskada, box model, Flexbox, Grid, responsive design; podstawy dostępności.</td></tr>
+      <tr><td>W3</td><td>JavaScript: zmienne, funkcje, tablice, obiekty, zdarzenia, DOM, formularze i walidacja.</td></tr>
+      <tr><td>W4</td><td>JSON, Promise/async/await, fetch, REST, statusy HTTP, CORS, backend, SQL i Supabase, bezpieczeństwo, AI w programowaniu.</td></tr>
+      </tbody></table></div>
+      <h3>Laboratoria — 4 × 2 h + 2 × 3 h = 14 h</h3>
+      <div class="scroll"><table><thead><tr><th>Spotkanie</th><th>Praktyka</th><th>Rezultat</th></tr></thead><tbody>
+      <tr><td>L1 · 2 h</td><td>Semantyczny HTML, repozytorium GitHub, publikacja</td><td>CV HTML</td></tr>
+      <tr><td>L2 · 2 h</td><td>Oddzielny arkusz CSS, układ i responsywność</td><td>CV z CSS</td></tr>
+      <tr><td>L3 · 2 h</td><td>JavaScript i obsługa interakcji</td><td>CV interaktywne</td></tr>
+      <tr><td>L4 · 2 h</td><td>JSON, fetch, DOM, obsługa błędu</td><td>CV dynamiczne; termin standardowy na 3,0</td></tr>
+      <tr><td>L5 · 3 h</td><td>Obrony, prezentacje, konsultacje i poprawki</td><td>Oceny wyższe / zaliczenia</td></tr>
+      <tr><td>L6 · 3 h</td><td>Obrony, prezentacje, konsultacje i poprawki</td><td>Zamknięcie zaliczeń</td></tr>
+      </tbody></table></div>
+      <p class="muted">Numeracja spotkań jest porządkowa. Konkretne daty i zasady obecności wynikają z planu USOS i regulacji uczelni.</p>
+    </div></section>
+
+    <section id="zadania"><div class="wrap">
+      <h2>Zadania obowiązkowe — wspólna podstawa</h2>
+      <p>Cztery zadania tworzą jedną ścieżkę. Każda wersja powinna dać się uruchomić oddzielnie z katalogu <code>zad1</code>, <code>zad2</code>, <code>zad3</code> i <code>zad4</code>. Wszystkie cztery są wymagane niezależnie od docelowej oceny.</p>
+      <div class="grid">
+        <article class="card"><span class="tag">L1 · HTML</span><h3>Zadanie 1 — moje CV</h3><p>Plik <code>zad1/index.html</code>, poprawne HTML5 i znaczniki semantyczne. Nagłówek, krótki opis, wykształcenie, doświadczenie, umiejętności, lista i co najmniej jeden link. Dane mogą być całkowicie fikcyjne.</p><p><strong>Weryfikacja:</strong> strona wyświetla się bez JS i CSS.</p></article>
+        <article class="card"><span class="tag">L2 · CSS</span><h3>Zadanie 2 — wygląd i mobile</h3><p>Kopia/rozwinięcie CV w <code>zad2</code>. Oddzielny plik <code>style.css</code>, zróżnicowane nagłówki i sekcje, marginesy/padding, własne kolory, Flexbox lub Grid i układ dostosowany do telefonu.</p><p><strong>Weryfikacja:</strong> strona czytelna na telefonie i komputerze.</p></article>
+        <article class="card"><span class="tag">L3 · JS</span><h3>Zadanie 3 — interakcje</h3><p>Katalog <code>zad3</code>, oddzielny <code>script.js</code>. Co najmniej dwie interakcje obsługiwane zdarzeniami JavaScript: zmiana motywu, rozwijanie sekcji, filtrowanie kompetencji, pokaż/ukryj dane.</p><p><strong>Weryfikacja:</strong> reakcje na kliknięcia i brak błędów w konsoli.</p></article>
+        <article class="card"><span class="tag">L4 · DOM & fetch</span><h3>Zadanie 4 — dynamiczne CV</h3><p>Pliki <code>zad4/index.html</code>, <code>script.js</code> i <code>cv.json</code>. Dane sekcji CV pochodzą z JSON-u serwowanego przez GitHub Pages. <code>fetch()</code> pobiera JSON, a JavaScript buduje DOM i wyświetla dane. Dodać komunikat ładowania i błędu.</p><p><strong>Weryfikacja:</strong> zmiana JSON zmienia widoczne CV bez edycji HTML.</p></article>
+      </div>
+      <p class="note"><strong>Wskazówka:</strong> w zadaniu 4 użyj adresu względnego <code>fetch('./cv.json')</code>, aby JSON był pobierany z tego samego katalogu i hosta GitHub Pages. Serwer zwraca JSON, a nie JavaScript.</p>
+      <p>Wymagany jest link do publicznego repozytorium oraz działającej strony GitHub Pages (np. bezpośrednio do <code>/zad4/</code>). Sam zrzut ekranu nie wystarcza.</p>
+    </div></section>
+
+    <section id="oceny" class="subtle"><div class="wrap">
+      <h2>Zaliczenie i ocenianie</h2>
+      <div class="grid">
+        <div class="card"><span class="tag good">3,0 · podstawowe zaliczenie</span><h3>Cztery wersje CV</h3><p>Wykonanie zadań 1–4 i przekazanie działających linków. Nie przewiduje się obowiązkowej indywidualnej obrony. Można korzystać z AI. Sprawdzana jest kompletność rozwiązania, nie autorstwo poszczególnych linijek.</p></div>
+        <div class="card"><span class="tag">4,0 · dwie równoważne ścieżki</span><h3>Kurs albo rozszerzenie CV</h3><p><strong>A:</strong> po CV 1–4 ukończ zaakceptowany kurs Coursera lub równoważny materiał i przedstaw potwierdzenie wykonania.</p><p><strong>B:</strong> po CV 1–4 dodaj edycję danych przez formularz, walidację, zapis i odczyt z <code>localStorage</code>.</p><p><strong>Obowiązkowa obrona w obu ścieżkach:</strong> omówienie działania własnego CV, pytania z teorii (i z kursu lub rozszerzenia), wskazywanie fragmentów kodu, modyfikacje i debugowanie na polecenie prowadzącego. Nie ma limitu jednej zmiany; dostarczenie kursu lub projektu nie przesądza automatycznie o ocenie dobrej.</p></div>
+        <div class="card"><span class="tag gold">5,0 · projekt zaawansowany</span><h3>Aplikacja Biblioteka</h3><p>CV 1–4 <strong>oraz komplet jednej ze ścieżek na 4,0 (A albo B)</strong>, a następnie aplikacja autorzy–książki z bazą Supabase i CRUD. Wymagana jest pełna indywidualna obrona: architektura, teoria, demonstracja działania, analiza błędów i modyfikacje kodu według poleceń prowadzącego. Szczegóły poniżej.</p></div>
+        <div class="card"><span class="tag">3,5 i 4,5</span><h3>Oceny pośrednie</h3><p>Możliwe na podstawie zakresu, poprawności, samodzielności i poziomu zrozumienia podczas dodatkowej weryfikacji. Konkretna ocena zależy od osiągniętych efektów uczenia się.</p></div>
+      </div>
+      <h3>Oddanie wcześniej i praca we własnym tempie</h3>
+      <p>Standardowy termin na podstawowy pakiet CV: <strong>koniec laboratorium L4</strong>. Można oddać cały pakiet już przed kolejnymi zajęciami. Student zainteresowany zakończeniem pracy nad przedmiotem na poziomie 3,0 powinien zaznaczyć to w zgłoszeniu. Po potwierdzeniu przyjęcia rozwiązania nie musi uczestniczyć w dodatkowych konsultacjach projektowych; formalne zasady obecności i zaliczenia zajęć pozostają zgodne z regulaminem uczelni.</p>
+      <div class="warn"><strong>Coursera nie jest obowiązkowa ani płatna z założenia.</strong> Sam certyfikat nie może być warunkiem dostępu do wyższej oceny. W większości kursów bezpłatny podgląd obejmuje tylko pierwszy moduł; możliwe są też kursy bezpłatne i równoważne materiały. Nie trzeba wykupować subskrypcji ani zakładać kolejnych kont.</div>
+    </div></section>
+
+    <section id="projekt5"><div class="wrap">
+      <h2>Projekt na ocenę 5,0 — Biblioteka</h2>
+      <p>Interaktywna aplikacja do zarządzania autorami i książkami. Frontend: HTML, CSS, JavaScript na GitHub Pages. Backend: automatyczne REST API Supabase z bazą PostgreSQL. Nie wymagamy osobnego serwera Node.js, PHP ani Spring Boot.</p>
+      <div class="grid">
+        <div class="card"><h3>Model danych</h3><ul><li><code>authors</code>: identyfikator, imię i nazwisko autora (lub nazwa), inne pole opcjonalne</li><li><code>books</code>: identyfikator, tytuł, rok publikacji, identyfikator autora</li><li>Relacja jeden autor — wiele książek; klucze główne i obce</li></ul></div>
+        <div class="card"><h3>Funkcje aplikacji</h3><ul><li>Lista autorów i książek oraz szczegóły</li><li>Dodawanie, edycja, usuwanie obu typów rekordów (CRUD)</li><li>Filtrowanie książek według autora lub wyszukiwanie po tytule</li><li>Formularze z walidacją i komunikatami błędów</li></ul></div>
+        <div class="card"><h3>Komunikacja z backendem</h3><ul><li>Wywołania REST lub klient Supabase z przeglądarki</li><li>Obsługa asynchroniczności, ładowania i błędów</li><li>Operacje GET, POST, PATCH/PUT, DELETE</li><li>Weryfikacja trwałego zapisu danych po odświeżeniu strony</li></ul></div>
+        <div class="card"><h3>Obrona indywidualna</h3><ul><li>Prezentacja i omówienie CV oraz aplikacji Biblioteka</li><li>Pytania z JavaScript, DOM, JSON, HTTP/REST, SQL i relacji w bazie danych</li><li>Wskazywanie fragmentów kodu i wykonanie wskazanych modyfikacji bez określonego limitu</li><li>Diagnoza błędów, wyjaśnienie zastosowanych rozwiązań i roli AI</li></ul></div>
+      </div>
+      <p><strong>Alternatywa technologiczna:</strong> po uzgodnieniu możliwa implementacja równoważnego REST backendu w PHP, Javie/Spring Boot lub Node.js. Kryteria funkcjonalne i obrona są takie same.</p><p class="note"><strong>Zalecenia, a nie wymagania na ocenę:</strong> uwierzytelnianie i RLS nie są obowiązkowe w tym ćwiczeniu. Projekt powinien używać wyłącznie fikcyjnych danych w odrębnej bazie testowej. Nie wolno udostępniać klucza <code>secret</code> ani <code>service_role</code> w publicznym frontendzie; dostępny publicznie klucz publishable/anon służy do wywołań klienta. Publiczne operacje zapisu mogą zostać wykorzystane przez osoby postronne.</p>
+    </div></section>
+
+    <section id="kursy" class="subtle"><div class="wrap">
+      <h2>Materiały i samodzielna nauka</h2>
+      <p>Można wybrać jeden kurs odpowiadający własnemu doświadczeniu, także spoza listy po uzgodnieniu z prowadzącym. Dla kursu krótkiego wymagane jest ukończenie wszystkich modułów i ćwiczeń, dla długiego można uzgodnić proporcjonalny zakres. Ocena 4,0 lub 5,0 wymaga indywidualnej obrony wiedzy i projektu.</p>
+      <div class="grid">
+        <div class="course"><span class="tag good">Początkujący</span><h3>IBM — Introduction to Web Development with HTML, CSS, JavaScript</h3><p>Wprowadzenie do frontendu, HTML, CSS i JS.</p><a href="https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript" target="_blank" rel="noopener noreferrer">Otwórz kurs</a></div>
+        <div class="course"><span class="tag">Frontend</span><h3>University of Michigan — Interactivity with JavaScript</h3><p>JavaScript, zdarzenia i interaktywność.</p><a href="https://www.coursera.org/learn/javascript" target="_blank" rel="noopener noreferrer">Otwórz kurs</a></div>
+        <div class="course"><span class="tag">PHP</span><h3>University of Michigan — Building Web Applications in PHP</h3><p>Serwer WWW, formularze, PHP i podstawy aplikacji webowych.</p><a href="https://www.coursera.org/learn/web-applications-php" target="_blank" rel="noopener noreferrer">Otwórz kurs</a></div>
+        <div class="course"><span class="tag">Java</span><h3>SkillUp — Spring Framework for Java Development</h3><p>Spring Boot, REST API i architektura aplikacji; dla osób znających Javę.</p><a href="https://www.coursera.org/learn/spring-framework-for-java-development" target="_blank" rel="noopener noreferrer">Otwórz kurs</a></div>
+      </div>
+      <h3>Bezpłatna alternatywa</h3>
+      <p>Dokumentacja <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development" target="_blank" rel="noopener noreferrer">MDN Learn Web Development</a> i kursy <a href="https://www.freecodecamp.org/learn/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a>. Zakres i sposób udokumentowania pracy należy uzgodnić z prowadzącym. Nie jest wymagany komercyjny certyfikat.</p>
+    </div></section>
+
+    <section id="oddawanie"><div class="wrap">
+      <h2>Jak oddać pracę przez GitHub</h2>
+      <p>Oddawanie odbywa się przez <strong>pull request (PR)</strong> do publicznego repozytorium kursu. Zalecane jest wykorzystanie tego samego konta GitHub co na zajęciach Team Project IT. Repozytoria i linki do aplikacji będą publiczne, a oceny pozostaną prywatne.</p><p><strong>Preferowany format konta, zgodny z Team Project:</strong> <code>vistula-team-project-123456</code> lub <code>vistula-team-project-123456-abc</code>, gdzie <code>123456</code> oznacza przykładowy numer indeksu, a <code>abc</code> jest opcjonalnym trzyliterowym sufiksem. Imię i nazwisko nie są wymagane. Osoba, która nie chce publikować numeru indeksu w loginie, może zgłosić istniejące konto i potwierdzić powiązanie prywatnie w systemie uczelni.</p>
+      <ol>
+        <li>Użyj istniejącego konta GitHub z Team Project lub załóż konto. Rekomendowany format: <code>vistula-team-project-NUMER_INDEKSU</code> (ewentualnie <code>-abc</code>).</li>
+        <li>Utwórz własne publiczne repozytorium CV z katalogami <code>zad1</code>–<code>zad4</code> i włącz GitHub Pages.</li>
+        <li>W repozytorium kursowym przygotuj nowy plik <code>submissions/TWOJ_LOGIN.md</code>. Skopiuj format ze <a href="submissions/_TEMPLATE.md">wzoru zgłoszenia</a>.</li>
+        <li>Wpisz login GitHub, link do repozytorium, link do działającego CV i wybraną ścieżkę oceny. Numer indeksu może występować w loginie, natomiast nie publikuj telefonu, adresu ani certyfikatów z danymi osobowymi.</li>
+        <li>Zrób fork repozytorium kursu i dodaj plik w swoim forku, następnie otwórz PR do gałęzi <code>main</code> tego repozytorium. Bez uprawnień zapisu jest to normalny sposób zgłoszenia. Zgłoszenie jest złożone już po utworzeniu PR. Prowadzący nie musi go scalać (merge), aby sprawdzić linki i zaliczyć pracę.</li>
+        <li>Jeśli login nie zawiera numeru indeksu, potwierdź powiązanie z kontem uczelnianym prywatnie, podając login GitHub i URL PR. Sam numer w loginie nie potwierdza tożsamości.</li>
+      </ol>
+      <div class="actions"><a class="btn" style="background:#2055a3;color:white" href="https://github.com/jakubsitekai/vistula-web-intro-2026z/new/main/submissions" target="_blank" rel="noopener noreferrer">Przygotuj plik zgłoszenia</a><a class="btn" style="border:1px solid #c7d3e2" href="https://github.com/jakubsitekai/vistula-web-intro-2026z/pulls" target="_blank" rel="noopener noreferrer">Zgłoszenia studentów (PR)</a></div>
+      <p class="muted">Ten kurs znajduje się we własnym publicznym repozytorium, niezależnym od aplikacji quizowej. Każdy student zgłasza tylko linki poprzez PR. Nie trzeba scalać PR, aby zgłoszenie było widoczne dla prowadzącego.</p>
+    </div></section>
+
+    <section id="faq" class="subtle"><div class="wrap">
+      <h2>Najczęstsze pytania</h2>
+      <div class="grid">
+        <div class="card"><h3>Czy można korzystać z AI?</h3><p>Tak. Na 3,0 liczy się kompletność i działanie. Na 4,0 i 5,0 odbywa się obrona: pytania z teorii, wyjaśnienie kodu oraz modyfikacje i debugowanie według poleceń prowadzącego.</p></div>
+        <div class="card"><h3>Czy moje CV musi być prawdziwe?</h3><p>Nie. Zalecane są fikcyjne dane. Nie publikuj prywatnego numeru telefonu, adresu czy innych wrażliwych informacji.</p></div>
+        <div class="card"><h3>Czy muszę zapłacić za Courserę?</h3><p>Nie. Dostępna jest bezpłatna ścieżka równoważnej nauki. Sam podgląd pierwszego modułu Coursery nie oznacza ukończenia całego kursu. Na 4,0 obowiązuje także obrona wiedzy i projektu CV.</p></div>
+        <div class="card"><h3>Czy mogę oddać wcześniej?</h3><p>Tak. Pełny zestaw CV można oddać przed L4. Po zaakceptowaniu projektu można zamknąć ścieżkę podstawową, a udział w dalszych konsultacjach zależy od zasad uczelni.</p></div>
+      </div>
+    </div></section>
+  </main>
+  <footer><div class="wrap"><strong>Wprowadzenie do technologii internetowych · Vistula</strong><p>Semestr zimowy 2026/2027 · Jakub Sitek</p><p>Dokumenty szczegółowe: <a href="syllabus.md">sylabus</a> · <a href="assignments.md">zadania i kryteria</a> · <a href="submissions/README.md">instrukcja oddawania</a>. Informacje organizacyjne podlegają regulaminowi uczelni.</p></div></footer>
+</body></html>

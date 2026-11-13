@@ -1,0 +1,28 @@
+{
+  "profile": {
+    "displayName": "Alex Nowak (postać fikcyjna)",
+    "title": "Junior Web Developer",
+    "summary": "Lubię uczyć się HTML, CSS i JavaScript."
+  },
+  "education": [
+    {
+      "school": "Przykładowa Uczelnia",
+      "years": "2024–2027",
+      "program": "Informatyka"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Projekt studencki",
+      "organization": "Przykładowa Organizacja",
+      "period": "2026",
+      "description": "Strona internetowa stworzona w celach edukacyjnych."
+    }
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "GitHub Pages"
+  ]
+}
