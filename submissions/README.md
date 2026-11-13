@@ -13,7 +13,7 @@ Możesz użyć tego samego konta co na Team Project IT: `vistula-team-project-12
 4. Wpisz link do repozytorium CV, działającej aplikacji, wybraną ocenę/ścieżkę i ewentualny link do dodatkowego projektu.
 5. Zatwierdź zmianę (commit), a następnie otwórz **Pull Request** z własnego forka do `jakubsitekai/vistula-web-intro-2026z:main`. Tytuł sugerowany: `[CV] <LOGIN> — zaliczenie`.
 6. **To wszystko — PR jest zgłoszeniem pracy.** Prowadzący może sprawdzić linki bez mergowania PR. Nie zamykaj PR bez uzgodnienia. W razie poprawki zaktualizuj plik na swojej gałęzi, a PR zaktualizuje się automatycznie.
-7. Jeśli chcesz ocenę 3,0 i zakończyć swoją ścieżkę wcześniej, zaznacz to w pliku. Formalna obecność wynika z zasad uczelni.
+7. Jeśli chcesz ocenę 3,0 i zakończyć ścieżkę wcześniej, zaznacz to w pliku. Po potwierdzeniu przez prowadzącego przyjęcia wszystkich czterech zadań masz zaliczone wykład i laboratorium. Nie musisz pojawiać się na dalszych zajęciach, chyba że prowadzący wyjątkowo wezwie Cię na konkretne spotkanie, informując o tym wcześniej.
 8. Na 4,0 i 5,0 obowiązuje także pełna indywidualna obrona. Sam PR lub certyfikat nie zastępuje obrony.
 
 ## Co jest publiczne

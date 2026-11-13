@@ -2,7 +2,7 @@
 
 **Login GitHub:** 
 
-**Docelowa ocena / ścieżka:** 3,0 / 4,0-kurs / 4,0-projekt / 5,0
+**Docelowa ocena / ścieżka:** 3,0 / 4,0-kurs / 4,0-projekt / 4,0-materiały / 5,0
 
 **Link do pliku zgłoszenia:** `submissions/TWOJ_LOGIN.md`
 

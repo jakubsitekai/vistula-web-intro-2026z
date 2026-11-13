@@ -21,8 +21,8 @@ Studenci umieszczają swoje CV we **własnym** repozytorium. Następnie wykonuj�
 W repozytorium wybierz **Settings → Pages → Build and deployment → Deploy from a branch → main / (root)**. Strona jest czystym HTML/CSS i nie wymaga kompilacji.
 
 ## Wymagania
-- **3,0:** CV w HTML, CSS, JS i DOM/fetch/JSON; bez obrony.
-- **4,0:** CV oraz kurs Coursera/równoważny **albo** rozszerzenie CV; pełna indywidualna obrona.
+- **3,0:** CV w HTML, CSS, JS i DOM/fetch/JSON; bez obrony. Po potwierdzeniu przyjęcia kompletu zaliczone są wykład i laboratorium; dalsza obecność nie jest wymagana, chyba że prowadzący wyjątkowo wezwie na konkretne zajęcia.
+- **4,0:** CV oraz kurs Coursera/równoważny **albo** rozszerzenie CV **albo** dodatkowe materiały prowadzącego i szerszy egzamin; pełna indywidualna obrona.
 - **5,0:** spełnienie wymagań na 4,0 oraz Biblioteka (REST, CRUD, Supabase) i pełna obrona.
 
 Supabase Auth i RLS nie są wymagane w demonstracyjnej aplikacji na 5,0. W publicznym frontendzie nie wolno umieszczać kluczy `service_role` ani `secret`.
