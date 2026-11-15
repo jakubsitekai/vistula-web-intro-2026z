@@ -9,6 +9,7 @@ Strona WWW (po włączeniu GitHub Pages): https://jakubsitekai.github.io/vistula
 - [Sylabus](syllabus.md)
 - [Zadania i zasady ocen](assignments.md)
 - [Rozbudowane wykłady W1–W4 w przeglądarce](lectures/index.html)
+- [Deklaracja docelowej oceny — Google Forms](https://forms.gle/VSh1FJd9ow4FC8fL9)
 - [Sonda preferowanej ścieżki nauki](https://github.com/jakubsitekai/vistula-web-intro-2026z/issues/1)
 - [Przykładowe dane CV](examples/cv.json)
 
