@@ -8,8 +8,8 @@
 
 ### Checklista
 - [ ] Dodałem nowy plik `submissions/<MOJ_LOGIN>.md` według szablonu.
-- [ ] Plik zawiera link do repozytorium CV i działającej strony zad4.
+- [ ] Plik zawiera link do działającego CV albo (dla Coursery 4,0) link do certyfikatu/screenshotów ukończenia na własnym GitHubie.
 - [ ] Nie zmieniam plików strony kursu, sylabusa ani cudzych zgłoszeń.
-- [ ] Jeśli ubiegam się o 4,0 lub 5,0, wiem, że konieczna jest także indywidualna obrona.
+- [ ] Rozumiem, że ukończona Coursera na 4,0 nie wymaga dodatkowego egzaminu ani obrony, a pozostałe ścieżki na 4,0 i projekt Biblioteka na 5,0 wymagają indywidualnej weryfikacji.
 
 Uwaga: PR **nie wymaga mergowania**, aby zgłoszenie zostało przyjęte do sprawdzenia.

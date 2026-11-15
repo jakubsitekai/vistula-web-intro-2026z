@@ -1,11 +1,11 @@
 # Zadania, rubryki i przykładowa struktura plików
 
 ## Zasady wspólne
-- Jedno repozytorium studenta zawierające niezależne katalogi zad1, zad2, zad3, zad4. Każdy katalog ma własny index.html i działa jako osobna wersja CV.
+- Ścieżki z CV (3,0, 4,0 B/C i 5,0) wymagają repozytorium z osobnymi katalogami zad1–zad4. **Na 4,0 z Coursery zadania CV nie są obowiązkowe.**
 - Można używać fikcyjnych danych do CV; prawdziwe dane osobowe nie są potrzebne.
 - Każda kolejna wersja rozwija poprzednią. Gotowe działające strony należy udostępnić na GitHub Pages.
-- Zgłoszenie przez PR zawiera link do repozytorium, zad4 i docelową ocenę. Zalecany GitHub login zgodny z Team Project: `vistula-team-project-123456` lub `vistula-team-project-123456-abc`; numer indeksu może być częścią publicznego loginu. Nie jest wymagane nazwisko. Jeśli ktoś nie chce upubliczniać identyfikatora, może powiązać konto prywatnie.
-- Do oceny 3,0 nie wymaga się obrony. Na 4,0 i 5,0 wymagana jest indywidualna, szczegółowa obrona wiedzy i pracy: pytania z teorii i praktyki, analiza kodu, rozwiązywanie problemów oraz zmiany na żywo. Prowadzący dostosowuje liczbę i zakres pytań do oceny; nie obowiązuje limit jednej ani dwóch zmian.
+- W zgłoszeniu PR podaj docelową ocenę oraz link do rozwiązania CV albo, w przypadku Coursery na 4,0, link do certyfikatu lub screenshotów ukończenia na własnym GitHubie. Rekomendowany login: `vistula-team-project-123456`; nazwisko nie jest konieczne.
+- Na 3,0 nie ma obrony. **Na 4,0 A (Coursera) nie ma dodatkowego egzaminu ani obrony** — wystarcza zatwierdzenie ukończenia kursu na podstawie potwierdzenia w GitHubie. Obrona dotyczy wariantów 4,0 B/C i oceny 5,0.
 - Standardowy termin oddania pakietu 1–4: koniec L4; można oddać wcześniej. Po potwierdzeniu zaliczenia kompletu zadań na 3,0 wykład i laboratorium są zaliczone; obecność na dalszych spotkaniach nie jest wymagana, z wyjątkiem wezwania przez prowadzącego na konkretne zajęcia z wyprzedzeniem. Sama obecność nie zastępuje dodatkowych wymagań na wyższe oceny.
 
 ## Zadanie 1 — CV HTML
@@ -28,7 +28,7 @@ Katalog zad4 z index.html, style.css, script.js, cv.json. Wymagane:
 W katalogu examples/ znajduje się przykładowy format JSON; student może go rozbudować.
 
 ## Ścieżka na 4,0 A — kurs
-Ukończ zaakceptowany kurs z zakresu technologii webowych. Preferowane: IBM HTML/CSS/JS, University of Michigan JavaScript/PHP, SkillUp Spring (dla osób znających Javę). Dokumentacja: certyfikat, osiągnięcia na platformie, zrzuty pokazujące ukończone moduły/ćwiczenia; bez konieczności publicznego publikowania dokumentacji z danymi osobowymi. Możliwa jest równoważna bezpłatna ścieżka MDN/freeCodeCamp i dokumentacja wykonanych ćwiczeń. Dokumentacja ukończenia kursu nie zastępuje indywidualnej obrony CV i wiedzy zdobytej na kursie.
+Ukończ zaakceptowany kurs Coursera z zakresu technologii webowych (rekomendowane: IBM HTML/CSS/JS, University of Michigan JavaScript/PHP, Spring dla znających Javę). **Samo ukończenie kursu daje ocenę 4,0, bez dodatkowego egzaminu, obrony i obowiązku wykonania CV 1–4.** Certyfikat lub screenshoty pokazujące ukończenie całego uzgodnionego zakresu wgraj do własnego repozytorium GitHub (np. folder `coursera/`) i podaj link w zgłoszeniu PR. Screenshot samego rozpoczęcia nauki czy pierwszego modułu nie jest wystarczający. Możesz zasłonić zbędne dane osobowe. Nie trzeba wykupywać certyfikatu. Inny kurs musi być zaakceptowany przez prowadzącego.
 
 ## Ścieżka na 4,0 B — projekt
 Rozbuduj zad4 o formularz edycji pól CV, walidację (co najmniej dwa warunki), zapis zmienionych danych w localStorage i przywracanie przy kolejnym otwarciu strony. Przedstaw działające rozwiązanie i obroń je indywidualnie: wyjaśnij kod, odpowiedz na pytania teoretyczne i wykonaj polecone przez prowadzącego modyfikacje oraz debugowanie. Zakres weryfikacji nie ogranicza się do jednej zmiany. Oczekiwana wiedza: DOM, zdarzenia, JSON, fetch, localStorage, walidacja, rola serwera.
@@ -37,7 +37,7 @@ Rozbuduj zad4 o formularz edycji pól CV, walidację (co najmniej dwa warunki), 
 Alternatywa dla Coursery jest już przygotowana w katalogu [lectures/](lectures/index.html). Obejmuje komplet czterech rozbudowanych wykładów: W1 internet, HTTP, HTML i Git; W2 CSS i responsywność; W3 JavaScript, DOM i zdarzenia; W4 JSON, fetch, REST, SQL i Supabase. Każdy rozdział zawiera przykłady i pytania do sprawdzenia wiedzy. W tym wariancie zakres egzaminu będzie szerszy: pytania ustne lub testowe z wszystkich czterech rozdziałów oraz pełna indywidualna obrona CV, w tym wyjaśnianie i modyfikowanie kodu. [Sonda grupowa dotycząca organizacji konsultacji](https://github.com/jakubsitekai/vistula-web-intro-2026z/issues/1) nie ogranicza prawa do tej ścieżki.
 
 ## Ścieżka na 5,0 — Biblioteka
-**Warunek wstępny:** wykonanie całej ścieżki na ocenę 4,0 — zarówno CV 1–4, jak i kursu/równoważnej nauki, rozszerzonego projektu CV **albo** materiałów prowadzącego z rozszerzonym egzaminem — z zaliczeniem indywidualnej obrony. Dopiero dodatkowo należy wykonać aplikację Biblioteka i obronić ją indywidualnie.
+**Warunek wstępny:** komplet CV 1–4 oraz zaliczenie jednej ze ścieżek na 4,0 (A — Coursera z potwierdzeniem, bez egzaminu; B — rozszerzony projekt i obrona; C — materiały W1–W4, egzamin i obrona). Dodatkowo wykonaj Bibliotekę i obroń ją indywidualnie. W ścieżce 5,0 CV i Biblioteka są obowiązkowe niezależnie od sposobu zaliczenia 4,0.
 
 Frontend HTML/CSS/JS na GitHub Pages. Backend preferowany: Supabase Data API oraz PostgreSQL; alternatywnie równoważny REST backend w PHP, Javie albo Node.js po uzgodnieniu.
 Model:
@@ -52,8 +52,8 @@ Wymagane:
 - uwierzytelnianie i polityki RLS to **zalecenia, nie wymagania na ocenę**; w ćwiczeniu używamy wyłącznie fikcyjnych danych i odrębnej bazy demonstracyjnej
 - **nie udostępniaj** kluczy secret ani service_role w przeglądarce; do frontendu można stosować publiczny klucz publishable/anon; publiczny zapis pozwala obcym zmieniać rekordy
 - README z opisem architektury i uruchomienia; działające demo
-- pełne wymagania oceny 4,0 (kurs **lub** rozszerzenie CV **lub** dodatkowe materiały prowadzącego i szerszy egzamin, z obroną), a ponadto obrona Biblioteki
-Na obronie: prezentacja, wyjaśnienie przepływu HTTP/REST i relacji SQL, dwie drobne zmiany, np. nowe pole books.genre oraz filtr po autorze.
+- zaliczenie jednej ze ścieżek na 4,0, CV 1–4 i pełna obrona Biblioteki (Coursera na 4,0 nie wymaga osobnej obrony)
+Na obronie: prezentacja, wyjaśnienie przepływu HTTP/REST i relacji SQL, poprawianie błędów i modyfikacje kodu według decyzji prowadzącego, bez sztywnego limitu pytań lub zmian.
 
 ## Przykłady pytań na obronie
 - Jak działa fetch i co oznacza asynchroniczność?
@@ -67,7 +67,7 @@ Na obronie: prezentacja, wyjaśnienie przepływu HTTP/REST i relacji SQL, dwie d
 
 ## Co jest oceniane
 3,0: kompletność zadań, działające linki i podstawowe kryteria funkcjonalne.
-4,0 A: potwierdzona realizacja zaakceptowanej ścieżki nauki oraz indywidualna obrona CV i wiedzy.
+4,0 A: certyfikat albo screenshoty ukończenia zaakceptowanego kursu Coursera na własnym GitHubie; bez dodatkowego egzaminu i obrony.
 4,0 B: działające rozszerzenie oraz pełna indywidualna obrona z pytaniami i modyfikacjami.
 4,0 C: opanowanie dodatkowych materiałów prowadzącego, rozszerzony egzamin teoretyczny oraz pełna indywidualna obrona CV.
-5,0: wszystkie wymagania oceny 4,0 oraz działająca aplikacja, baza danych, REST, jakość implementacji i pełna indywidualna obrona: analiza architektury, teorii, kodu i modyfikacje według poleceń.
+5,0: CV 1–4, ukończenie odpowiedniej ścieżki na 4,0, działająca Biblioteka z bazą danych i REST oraz pełna obrona Biblioteki.

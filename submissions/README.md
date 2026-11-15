@@ -1,24 +1,24 @@
 # Jak oddać rozwiązanie — Pull Request
 
-W tym repozytorium (`jakubsitekai/vistula-web-intro-2026z`) zgłasza się **wyłącznie linki do projektów**. Nie wgrywaj pełnego rozwiązania do repozytorium prowadzącego. Swój kod i działające GitHub Pages umieść we własnym repozytorium.
+W tym repozytorium (`jakubsitekai/vistula-web-intro-2026z`) zgłasza się **linki do CV oraz potwierdzeń ukończenia Coursery**. Nie wgrywaj prac do repo prowadzącego. Projekt i certyfikat/screenshoty umieść we własnym repozytorium GitHub.
 
 ## Schemat konta GitHub
 Możesz użyć tego samego konta co na Team Project IT: `vistula-team-project-123456` albo `vistula-team-project-123456-abc` (123456 to przykładowy numer indeksu). Imię i nazwisko nie są potrzebne. Jeśli masz inne konto GitHub, możesz go użyć i potwierdzić prywatnie powiązanie z uczelnianym numerem indeksu.
 
 ## Zgłoszenie krok po kroku
 
-1. Utwórz własne repozytorium z rozwiązaniem (foldery `zad1`–`zad4`) i opublikuj projekt na GitHub Pages.
+1. Dla 3,0, 4,0 B/C i 5,0 przygotuj własne CV z katalogami `zad1`–`zad4` oraz GitHub Pages. **Dla Coursery na 4,0** wystarczy własne repozytorium GitHub (np. `coursera-vistula`) z certyfikatem lub screenshotami ukończenia kursu, bez CV.
 2. Wykonaj **Fork** tego repozytorium: https://github.com/jakubsitekai/vistula-web-intro-2026z/fork.
 3. W swoim forku dodaj nowy plik `submissions/TWOJ_LOGIN.md` — skorzystaj z `submissions/_TEMPLATE.md`. Nie edytuj wspólnego szablonu; każdy student dodaje **swój własny plik**.
-4. Wpisz link do repozytorium CV, działającej aplikacji, wybraną ocenę/ścieżkę i ewentualny link do dodatkowego projektu.
+4. Wpisz wybraną ocenę i odpowiednie linki: do projektu CV dla ścieżek projektowych albo do certyfikatu/screenshotów ukończenia Coursery na własnym GitHubie dla 4,0 A.
 5. Zatwierdź zmianę (commit), a następnie otwórz **Pull Request** z własnego forka do `jakubsitekai/vistula-web-intro-2026z:main`. Tytuł sugerowany: `[CV] <LOGIN> — zaliczenie`.
 6. **To wszystko — PR jest zgłoszeniem pracy.** Prowadzący może sprawdzić linki bez mergowania PR. Nie zamykaj PR bez uzgodnienia. W razie poprawki zaktualizuj plik na swojej gałęzi, a PR zaktualizuje się automatycznie.
 7. Jeśli chcesz ocenę 3,0 i zakończyć ścieżkę wcześniej, zaznacz to w pliku. Po potwierdzeniu przez prowadzącego przyjęcia wszystkich czterech zadań masz zaliczone wykład i laboratorium. Nie musisz pojawiać się na dalszych zajęciach, chyba że prowadzący wyjątkowo wezwie Cię na konkretne spotkanie, informując o tym wcześniej.
-8. Na 4,0 i 5,0 obowiązuje także pełna indywidualna obrona. Sam PR lub certyfikat nie zastępuje obrony.
+8. **Coursera 4,0:** po przyjęciu potwierdzenia ukończonego kursu uzyskujesz 4,0 bez egzaminu i obrony. Na 4,0 B/C i 5,0 nadal obowiązują odpowiednie obrony.
 
 ## Co jest publiczne
 
-Repozytorium i zgłoszenia PR są publiczne. Numer indeksu może występować w loginie GitHub zgodnie z konwencją Team Project. Oceny są wystawiane poza GitHubem, w systemie uczelni. Certyfikaty Coursera lub inne dokumenty przesyłaj/okazuj prywatnie.
+Repozytorium i zgłoszenia PR są publiczne. Certyfikat lub screenshoty ukończenia zaakceptowanego kursu Coursera wgraj do swojego repozytorium GitHub i podaj link w PR. Wystarczy potwierdzenie ukończenia kursu; usuń lub zasłoń niepotrzebne dane osobowe. Oceny wystawiane są w systemie uczelni.
 
 ## Dla prowadzącego
 
